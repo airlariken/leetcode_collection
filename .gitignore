@@ -1,2 +1,15 @@
 # 忽略 macOS 系统生成的索引文件
 .DS_Store
+.Spotlight-V100
+.Trashes
+
+# 忽略 xcode相关文件
+*.xcodeproj/*
+*.xcuserstate
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+*.xccheckout
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcscmblueprint
