@@ -13,3 +13,7 @@
 *.xcodeproj/project.xcworkspace/
 *.xcodeproj/xcuserdata/
 *.xcscmblueprint
+
+# CLion project files
+.idea
+cmake-build-*
