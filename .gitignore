@@ -5,17 +5,16 @@
 
 # 忽略 xcode相关文件
 ### Xcode Patch ###
-*.xcodeproj
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 !*.xcodeproj/project.xcworkspace/
 !*.xcworkspace/contents.xcworkspacedata
+### Xcode Patch ###
+*.xcodeproj
 **/Build/
-*.xcodeproj/*
 *.xcuserstate
 *.xcworkspace
-!*.xcworkspace/contents.xcworkspacedata
 !*.xcworkspace/xcshareddata/
 *.xccheckout
 *.xcodeproj/project.xcworkspace/
@@ -25,4 +24,3 @@
 # CLion project files
 .idea
 cmake-build-*
-/leecode1323. Maximum 69 Number/leecode1323. Maximum 69 Number.xcodeproj
